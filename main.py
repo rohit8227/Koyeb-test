@@ -91,8 +91,8 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Thor_700"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Thor_700"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/mk098754"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/mk098754"),
         ],
         [
             InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+Fag4jwAKNZRiNzk1"),
@@ -104,8 +104,8 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Thor_700"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Thor_700"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/mk098754"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/mk098754"),
         ],
         [
             InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+Fag4jwAKNZRiNzk1"),
@@ -134,7 +134,7 @@ async def add_channel(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@mk098754** for subscription details."
         )
         return
 
@@ -224,7 +224,7 @@ async def text_to_txt(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@mk098754** for subscription details."
         )
         return
 
@@ -488,7 +488,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@mk098754** for subscription details."
         )
         return
 
@@ -643,7 +643,7 @@ async def start_command(bot: Client, message: Message):
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
         "➠ **Use /upload Command to Download From TXT File** 📄\n\n"
-        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @Thor_700"
+        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @mk098754"
     )
 
     # Send the image with caption and buttons
@@ -659,7 +659,7 @@ async def start_command(bot: Client, message: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 COOKIES_FILE_PATH = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
-ADMIN_ID = 6433733086  # Admin ID for restricting the command
+ADMIN_ID = 6126688051 # Admin ID for restricting the command
 
 @bot.on_message(filters.command("cookies") & filters.private)
 async def cookies_handler(client: Client, m: Message):
@@ -707,7 +707,7 @@ async def cookies_handler(client: Client, m: Message):
 
 # Retrieve the cookies file path from the environment variable or set the default path
 INSTAGRAM_COOKIES_PATH = os.getenv("INSTAGRAM_COOKIES_PATH", "instagram_cookies.txt")
-ADMIN_ID = 6433733086  # Admin ID for restricting the command
+ADMIN_ID = 6126688051 # Admin ID for restricting the command
 
 @bot.on_message(filters.command("instacookies") & filters.private)
 async def instacookies_handler(client: Client, m: Message):
@@ -757,7 +757,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-ADMIN_ID = 6433733086
+ADMIN_ID = 6126688051
 
 # Function to read subscription data
 def read_subscription_data():
@@ -869,7 +869,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 6433733086
+YOUR_ADMIN_ID = 6126688051
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -976,7 +976,7 @@ async def id_command(client, message: Message):
         f"`/add_channel {chat_id}`"
     )
 
-YOUR_ADMIN_ID = 6433733086
+YOUR_ADMIN_ID = 6126688051
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -1348,7 +1348,7 @@ async def upload_handler(client: Client, m: Message):
                     Show = f"""❊ ♻️..𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠..♻️ ❊ »\n\n📄 **Title:** `{name}`\n🔥 **Quality:** {raw_text2}\n"""
                 
                     # Enhanced prog message
-                    prog = await m.reply_text(f"**♻️..Downloading Video..♻️**\n\n📄 **Title:** `{name}`\n🔥 **Quality:** {raw_text2}\n\n⚡ **Bσƚ Oɯɳҽɾ ➵ITS๛Pυɳҽҽƚ亗")
+                    prog = await m.reply_text(f"**♻️..Downloading Video..♻️**\n\n📄 **Title:** `{name}`\n🔥 **Quality:** {raw_text2}\n\n⚡ **THE_BOYS 🧟‍♂️")
                
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -1365,7 +1365,7 @@ async def upload_handler(client: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Done Boss🔰")
+    await m.reply_text("💔THE_BOYS💔")
 
 
 
